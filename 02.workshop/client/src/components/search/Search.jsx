@@ -23,6 +23,8 @@ export default function Search() {
           </button>
         </div>
 
+        
+
         <div className="filter">
           <span>Search Criteria:</span>
           <select name="criteria" className="criteria">
