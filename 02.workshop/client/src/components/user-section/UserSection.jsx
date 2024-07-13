@@ -9,12 +9,14 @@ export default function UserSection() {
 	const [users, setUsers] = useState([]);
 
 	useEffect(() => {
-		function getUsers() {
-			fetch(`${baseUrl}/users`)
-				.then(response => response.json())
-				.then(result => console.log(result))
-				.catch(error => console.error(error));
-		}
+		fetch(`${baseUrl}/users`)
+			.then(response => response.json())
+			.then(result => {
+				const users = Object.values(result);
+
+				setUsers(users);
+			})
+			.catch(error => alert(error));
 	}, []);
 
 	return (
