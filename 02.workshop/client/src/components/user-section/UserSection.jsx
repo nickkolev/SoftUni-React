@@ -56,6 +56,7 @@ export default function UserSection() {
 			},
 			body: JSON.stringify(userData)
 		});
+		
 		const createdUser = await response.json();
 
 		console.log(createdUser);
