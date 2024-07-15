@@ -67,6 +67,7 @@ export default function UserSection() {
 		setShowAddUser(false);
 	}
 	
+	
 
 	const userDetailsClickHandler = (userId) => {
 		setShowUserDetailsById(userId);
