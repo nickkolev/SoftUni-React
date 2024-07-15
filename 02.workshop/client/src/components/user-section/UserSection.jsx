@@ -66,8 +66,6 @@ export default function UserSection() {
 		// close modal
 		setShowAddUser(false);
 	}
-	
-	
 
 	const userDetailsClickHandler = (userId) => {
 		setShowUserDetailsById(userId);
