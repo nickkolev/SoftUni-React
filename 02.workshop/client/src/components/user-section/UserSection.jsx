@@ -47,7 +47,7 @@ export default function UserSection() {
 			createdAt: new Date().toISOString(),
 			updatedAt: new Date().toISOString(),
 		};
-\
+		
 		// make post request
 		const response = await fetch(`${baseUrl}/users`, {
 			method: "POST",
