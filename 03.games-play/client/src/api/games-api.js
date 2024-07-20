@@ -9,3 +9,16 @@ export const getAll = async () => {
 
     return games;
 }
+
+export const getOne = async (gameId) => {
+    const game = await request.get(`${BASE_URL}/${gameId}`);
+
+    return game;
+}
+
+const gamesApi = {
+    getOne,
+    getAll,
+}
+
+export default gamesApi;
