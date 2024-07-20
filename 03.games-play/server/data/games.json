@@ -1,0 +1,18 @@
+{
+    "4f870373-2d7f-482b-af48-58a747bcbe6d": {
+        "title": "Satisfactory",
+        "category": "Automation",
+        "maxLevel": "10",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F526870%2FSatisfactory%2F&psig=AOvVaw3l-SZtdGILul3XnyOHJySz&ust=1721568507155000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPC4r8zctYcDFQAAAAAdAAAAABAI",
+        "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+        "_id": "4f870373-2d7f-482b-af48-58a747bcbe6d"
+    },
+    "ac015ece-cf23-4826-bf60-9e1164e06025": {
+        "title": "DarkOrbit",
+        "category": "Sci-Fi",
+        "maxLevel": "24",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.darkorbit.com%2F&psig=AOvVaw04SBuGoCr6KTMTQmEkkEpL&ust=1721568642795000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCBpY3dtYcDFQAAAAAdAAAAABAI",
+        "summary": "„DarkOrbit“, по-късно преименувана на „DarkOrbit:Reloaded“, е масивна мултиплейър онлайн игра, разработена от Bigpoint Games. Действието се развива в космическото пространство, където играчите контролират космически кораб, за да се бият срещу извънземни или други играчи.",
+        "_id": "ac015ece-cf23-4826-bf60-9e1164e06025"
+    }
+}
