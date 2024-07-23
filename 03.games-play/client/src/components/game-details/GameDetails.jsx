@@ -32,6 +32,7 @@ export default function GameDetails() {
         setUsername('');
         setComment('');
     }
+    
 
     return (
         <section id="game-details">
