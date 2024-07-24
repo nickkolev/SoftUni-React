@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Routes, Route } from "react-router-dom"
 
 import Header from "./components/header/Header"
@@ -7,10 +8,24 @@ import Register from "./components/register/Register"
 import GameList from "./components/game-list/GameList"
 import GameCreate from "./components/game-create/GameCreate"
 import GameDetails from "./components/game-details/GameDetails"
+import { AuthContext } from "./contexts/AuthContext"
 
 function App() {
+	const [authState, setAuthState] = useState([]);
+
+	const changeAuthState = (state) => {
+		setAuthState(state);
+	}
+
+	const contextDate = {
+		email: authState.email,
+		accessToken: authState.accessToken,
+		isAuthenticate: !!authState.email,
+		changeAuthState
+	}
 
 	return (
+		<AuthContext.Provider value={contextDate}>
 		<div id="box">
 			<Header />
 
@@ -25,6 +40,7 @@ function App() {
 				</Routes>
 			</main>
 		</div>
+		</AuthContext.Provider>
 	)
 }
 
