@@ -18,6 +18,7 @@ function App() {
 	}
 
 	const contextDate = {
+		userId: authState._id,
 		email: authState.email,
 		accessToken: authState.accessToken,
 		isAuthenticate: !!authState.email,
