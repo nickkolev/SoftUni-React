@@ -2,6 +2,7 @@ import { useForm } from "../../hooks/useForm";
 import { useNavigate } from 'react-router-dom';
 import { useCreateGame } from '../../hooks/useGames';
 
+
 const initialValues = {
     title: '',
     category: '',
@@ -9,6 +10,7 @@ const initialValues = {
     imageUrl: '',
     summary: ''
 }
+
 
 export default function GameCreate() {
     const navigate = useNavigate();
